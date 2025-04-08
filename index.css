@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(115deg, #020016c4, #000320bd);
+    color: #fefefe;
+    margin: 0px;
+    padding: 30px 20px;
+}
+
+#logo {
+    width: 120px;
+}
+
+h1 {
+    text-align: center;
+    width: 450px;
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 100%;
+}
+
+#phone-container {
+    background-color: #030303;
+    border: 10px solid #030303;
+    width: 280px;
+    max-width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+#phone-header {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#phone-camera {
+    height: 10px;
+    width: 10px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #dddada;
+}
+
+#phone-screen {
+    padding: 12px;
+    margin: 0px;
+    background-color: #f3f3f3;
+    color: #030303;
+}
+
+#results-div {
+    height: 320px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    overflow-wrap: break-word;
+    font-size: 1.3rem;
+    overflow: auto;
+}
+
+#user-input {
+    display: block;
+    margin: 5px auto;
+    height: 40px;
+    width: 90%;
+    border-radius: 8px;
+    font-size: 1.3rem;
+}
+
+#phone-footer {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#phone-footer button {
+    height: 30px;
+    width: 45%;
+    font-size: 1.1rem;
+}
+
+.valid{
+    color: #034101;
+}
+
+.invalid{
+    color: #520202bd;
+}
