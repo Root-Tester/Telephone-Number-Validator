@@ -20,4 +20,4 @@ A simple and fast web application to validate US phone numbers. This tool ensure
 3. Receive immediate feedback on whether the phone number is valid or not.
 
 ## Demo:
-You can try out the application by visiting the live demo here: [Demo Link](https://root-tester.github.io/Telephone-NumberValidator/)
+You can try out the application by visiting the live demo here: [Demo Link](https://root-tester.github.io/Telephone-Number-Validator/)
