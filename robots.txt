@@ -1,0 +1,33 @@
+# robots.txt for US Phone Number Validator with Login
+
+# Allow all search engine crawlers to index everything except login or user-related pages
+User-agent: *
+Disallow: /login/            # Prevent search engines from indexing the login page
+Disallow: /register/         # Prevent indexing of the registration page
+Disallow: /dashboard/        # Prevent indexing of authenticated user dashboard
+Disallow: /profile/          # Prevent indexing of user profile pages
+Disallow: /account/          # Prevent indexing of account-related pages
+Disallow: /admin/            # Block indexing of any potential admin pages (if applicable)
+
+# Optionally block any sensitive or session-based content
+Disallow: /settings/         # Prevent indexing of settings or configuration pages
+Disallow: /checkout/         # If there's a checkout process, prevent indexing
+
+# Allow everything else (the rest of your public-facing site is crawled)
+Allow: /
+
+# Block malicious bots (e.g., BadBot)
+User-agent: BadBot
+Disallow: /
+
+# Add additional bots that you want to block
+User-agent: EvilBot
+Disallow: /
+
+User-agent: SpammerBot
+Disallow: /
+
+# Recommended rule for privacy and server load
+User-agent: *
+Crawl-delay: 10              # A small delay between requests to reduce server load
+
